@@ -1,0 +1,32 @@
+.center-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  margin-bottom: 32px;
+}
+
+
+.logo-public {
+  width: 350px;
+  @media screen and (max-width: 730px) {
+    width: 200px;
+  }
+}
+
+.auth-card {
+  width: 500px;
+  padding: 16px;
+  background-color: #FAFBFC;
+  border-radius: 8px;
+  border: 3px solid #FAFBFC;
+}
+
+.login-form-forgot {
+  float: right;
+}
+

@@ -1,0 +1,25 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "files.associations": {
+    ".env*": "properties",
+    ".prettierrc": "json"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    ".docker-data": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "dist": true
+  },
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

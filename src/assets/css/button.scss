@@ -1,0 +1,27 @@
+.button-full-width {
+  width: 100%;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+
+  &:hover {
+    background-color: #eb5e6b;
+    border: 1px solid #dc3545;
+    color: #fff;
+  }
+}
+
+.button-success {
+  background-color: #2fc787;
+  border: 1px solid #2fc787;
+  color: #fff;
+
+  &:hover {
+    background-color: #53f5b1;
+    border: 1px solid #2fc787 !important;
+    color: #fff !important;
+  }
+}
